@@ -1,0 +1,13 @@
+{
+  "name": "login-3d-animated-page",
+  "version": "1.0.0",
+  "description": "Beginner-friendly 3D animated login page with Node.js and Express backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.2"
+  }
+}

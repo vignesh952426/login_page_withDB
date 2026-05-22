@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Animated Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="scene">
+      <div class="cube cube-1"></div>
+      <div class="cube cube-2"></div>
+      <div class="cube cube-3"></div>
+      <div class="cube cube-4"></div>
+      <div class="cube cube-5"></div>
+    </div>
+
+    <main class="login-card">
+      <div class="card-content">
+        <h1>Welcome Back</h1>
+        <p>Login to access your dashboard</p>
+
+        <form id="loginForm">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" autocomplete="username" required />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" autocomplete="current-password" required />
+
+          <button type="submit">Sign In</button>
+        </form>
+
+        <p id="message" class="message"></p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
